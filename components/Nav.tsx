@@ -6,7 +6,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { RSSIcon } from './RssIcon';
 import { useTags } from './tags/TagsContext';
 import ThemeSwitch from './ThemeSwitch';
 
@@ -54,7 +53,6 @@ const Nav: React.FC = () => {
               </Link>
             ))}
             <ThemeSwitch />
-            <RSSIcon />
 
             <Link href="https://twitter.com/xiaokedada" passHref>
               <span className="ml-2 bg-black text-white p-1 dark:bg-white dark:text-black cursor-pointer">
